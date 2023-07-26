@@ -27,5 +27,5 @@ export async function answer() {
 }
 
 function printAnswer(answer: string) {
-  console.log(`${colors.bold.cyan('   Answer   : ')}  ${answer} \n`)
+  console.log(`${colors.bold.cyan('   Answer   : ')} ${answer} \n`)
 }
