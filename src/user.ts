@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync'
 import colors from 'colors'
-import { addUserMessage } from './messages'
+import { addUserMessage } from './messages.js'
 
 export function ask() {
-  const userInput = readlineSync.question(`${colors.bgMagenta('Question:')}  `)
+  const userInput = readlineSync.question(`${colors.bold.magenta('  Question  :')}  `)
 
   checkExit(userInput)
 
@@ -13,6 +13,6 @@ export function ask() {
 }
 
 function checkExit(i: string) {
-  if (['e', 'exit'].includes(i.toLocaleLowerCase()))
+  if (['e', 'q', 'exit', 'quit'].includes(i.toLocaleLowerCase()))
     process.exit()
 }

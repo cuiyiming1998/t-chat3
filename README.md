@@ -1,6 +1,6 @@
-# pkg-name
+# terminal-chat
 
-[![NPM version](https://img.shields.io/npm/v/pkg-name?color=a1b858&label=)](https://www.npmjs.com/package/pkg-name)
+[![NPM version](https://img.shields.io/npm/v/terminal-chat?color=a1b858&label=)](https://www.npmjs.com/package/terminal-chat)
 
 ## Sponsors
 

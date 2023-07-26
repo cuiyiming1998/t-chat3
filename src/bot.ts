@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai'
 import colors from 'colors'
-import { addBotMessage, messages } from './messages'
+import { addBotMessage, messages } from './messages.js'
 
 let openAi: OpenAIApi
 
@@ -27,5 +27,5 @@ export async function answer() {
 }
 
 function printAnswer(answer: string) {
-  console.log(`\n${colors.bold.bgRed('Answer: ')}  ${answer} \n`)
+  console.log(`${colors.bold.cyan('   Answer   : ')}  ${answer} \n`)
 }

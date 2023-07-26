@@ -1,17 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "terminal-chat",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.0",
   "description": "",
   "author": "cuiyiming <atlasyoungcym@163.com>",
   "license": "MIT",
-  "homepage": "https://github.com/cuiyiming1998/pkg-name#readme",
+  "homepage": "https://github.com/cuiyiming1998/terminal-chat#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuiyiming1998/pkg-name.git"
+    "url": "git+https://github.com/cuiyiming1998/terminal-chat.git"
   },
-  "bugs": "https://github.com/cuiyiming1998/pkg-name/issues",
+  "bugs": "https://github.com/cuiyiming1998/terminal-chat/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -45,6 +45,13 @@
     "start": "esno packages/demo/src/index.ts",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "ora": "^6.3.1",
+    "readline-sync": "^1.4.10"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
     "@antfu/ni": "^0.20.0",
@@ -67,11 +74,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "dependencies": {
-    "colors": "^1.4.0",
-    "dotenv": "^16.3.1",
-    "openai": "^3.3.0",
-    "readline-sync": "^1.4.10"
   }
 }
