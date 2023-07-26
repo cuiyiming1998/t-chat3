@@ -1,17 +1,17 @@
 {
-  "name": "terminal-chat",
+  "name": "t-chat3",
   "type": "module",
   "version": "0.0.2",
   "packageManager": "pnpm@8.6.0",
   "description": "",
   "author": "cuiyiming <atlasyoungcym@163.com>",
   "license": "MIT",
-  "homepage": "https://github.com/cuiyiming1998/terminal-chat#readme",
+  "homepage": "https://github.com/cuiyiming1998/t-chat3#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuiyiming1998/terminal-chat.git"
+    "url": "git+https://github.com/cuiyiming1998/t-chat3.git"
   },
-  "bugs": "https://github.com/cuiyiming1998/terminal-chat/issues",
+  "bugs": "https://github.com/cuiyiming1998/t-chat3/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {

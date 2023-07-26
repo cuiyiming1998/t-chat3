@@ -1,6 +1,6 @@
-# terminal-chat
+# t-chat3
 
-[![NPM version](https://img.shields.io/npm/v/terminal-chat?color=a1b858&label=)](https://www.npmjs.com/package/terminal-chat)
+[![NPM version](https://img.shields.io/npm/v/t-chat3?color=a1b858&label=)](https://www.npmjs.com/package/t-chat3)
 
 ## Sponsors
 
